@@ -10,5 +10,12 @@ function calculateNumbers(var1, var2)
 
 console.log(calculateNumbers(10, 5));
 
+let obj = [1,2,3];
+let obj2 = [1, 1, 1];
+
+//copy uniqu values from obj and obj2
+let obj3 = [...obj,...obj2];
+console.log(obj3);
+
 
 
